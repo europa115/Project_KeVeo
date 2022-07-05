@@ -1,11 +1,11 @@
-/*package com.example.KeVeo.data.entity;
+package com.example.KeVeo.data.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class genre {
+public class GenreEntity {
 
     @Id
     @Column(name = "id_genre")
@@ -36,16 +36,15 @@ public class genre {
     //**************************************CONSTRUCTORS****************************************************************
 
 
-    public genre() {
+    public GenreEntity() {
 
     }
 
-    public genre(Integer id) {
+    public GenreEntity(Integer id) {
         this.id = id;
     }
 
-    public genre(String title) {
+    public GenreEntity(String title) {
         this.title = title;
     }
 }
-*/
